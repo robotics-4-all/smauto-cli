@@ -53,4 +53,8 @@ For Arch-based Linux systems simply install via pacman package manager:
 pacman -Sy plantuml
 ```
 
-Then use the ``
+Then use the `graph` subcommand of the cli:
+
+```
+smauto graph simple_model.smauto
+```

@@ -11,6 +11,7 @@ from smauto.language import build_model
 def cli(ctx):
     ctx.ensure_object(dict)
 
+
 @cli.command(help='Validator')
 @click.pass_context
 @click.argument('model_path')
