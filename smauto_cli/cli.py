@@ -33,7 +33,7 @@ def interpret(ctx, model_path):
 @cli.command(help='Automation Graph generator')
 @click.pass_context
 @click.argument('model_path')
-def gen_automation_graph(ctx, model_path):
+def graph(ctx, model_path):
     generate_automation_graph_from_file(model_path)
 
 
